@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section>
+		<div class="container">
+			<ul class="filter_btns">
+				<li><a class="btn btn-default active_filter" data-filter="*" href="javascript:void(0);">All</a></li>
+				<li><a class="btn btn-default" data-filter=".image_one" href="javascript:void(0);">One</a></li>
+				<li><a class="btn btn-default" data-filter=".image_two" href="javascript:void(0);">Two</a></li>
+				<li><a class="btn btn-default" data-filter=".image_three" href="javascript:void(0);">Three</a></li>
+				<li><a class="btn btn-default" data-filter=".image_four" href="javascript:void(0);">Four</a></li>
+				<li><a class="btn btn-default" data-filter=".image_five" href="javascript:void(0);">Five</a></li>
+				<li><a class="btn btn-default" data-filter=".image_six" href="javascript:void(0);">Six</a></li>
+				<li><a class="btn btn-default" data-filter=".image_seven" href="javascript:void(0);">Seven</a></li>
+				<li><a class="btn btn-default" data-filter=".image_eight" href="javascript:void(0);">Eight</a></li>
+			</ul>
+			<div class="grid row">
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_one">
+					<a href="images/1.jpg" data-lightbox="images_light_box">
+						<img src="images/1.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 1</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_two">
+					<a href="images/2.jpg" data-lightbox="images_light_box">
+						<img src="images/2.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 2</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_three">
+					<a href="images/3.jpg" data-lightbox="images_light_box">
+						<img src="images/3.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 3</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_four">
+					<a href="images/4.jpg" data-lightbox="images_light_box">
+						<img src="images/4.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 4</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_five">
+					<a href="images/5.jpg" data-lightbox="images_light_box">
+						<img src="images/5.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 5</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_six">
+					<a href="images/6.jpg" data-lightbox="images_light_box">
+						<img src="images/6.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 6</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_seven">
+					<a href="images/7.jpg" data-lightbox="images_light_box">
+						<img src="images/7.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 7</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_eight">
+					<a href="images/8.jpg" data-lightbox="images_light_box">
+						<img src="images/8.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 8</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_one">
+					<a href="images/1.jpg" data-lightbox="images_light_box">
+						<img src="images/1.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 1</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_two">
+					<a href="images/2.jpg" data-lightbox="images_light_box">
+						<img src="images/2.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 2</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_three">
+					<a href="images/3.jpg" data-lightbox="images_light_box">
+						<img src="images/3.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 3</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_four">
+					<a href="images/4.jpg" data-lightbox="images_light_box">
+						<img src="images/4.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 4</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_five">
+					<a href="images/5.jpg" data-lightbox="images_light_box">
+						<img src="images/5.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 5</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_six">
+					<a href="images/6.jpg" data-lightbox="images_light_box">
+						<img src="images/6.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 6</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_seven">
+					<a href="images/7.jpg" data-lightbox="images_light_box">
+						<img src="images/7.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 7</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_eight">
+					<a href="images/8.jpg" data-lightbox="images_light_box">
+						<img src="images/8.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 8</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_one">
+					<a href="images/1.jpg" data-lightbox="images_light_box">
+						<img src="images/1.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 1</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_two">
+					<a href="images/2.jpg" data-lightbox="images_light_box">
+						<img src="images/2.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 2</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_three">
+					<a href="images/3.jpg" data-lightbox="images_light_box">
+						<img src="images/3.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 3</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_four">
+					<a href="images/4.jpg" data-lightbox="images_light_box">
+						<img src="images/4.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 4</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_five">
+					<a href="images/5.jpg" data-lightbox="images_light_box">
+						<img src="images/5.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 5</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_six">
+					<a href="images/6.jpg" data-lightbox="images_light_box">
+						<img src="images/6.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 6</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_seven">
+					<a href="images/7.jpg" data-lightbox="images_light_box">
+						<img src="images/7.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 7</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_eight">
+					<a href="images/8.jpg" data-lightbox="images_light_box">
+						<img src="images/8.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 8</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_one">
+					<a href="images/1.jpg" data-lightbox="images_light_box">
+						<img src="images/1.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 1</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_two">
+					<a href="images/2.jpg" data-lightbox="images_light_box">
+						<img src="images/2.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 2</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_three">
+					<a href="images/3.jpg" data-lightbox="images_light_box">
+						<img src="images/3.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 3</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_four">
+					<a href="images/4.jpg" data-lightbox="images_light_box">
+						<img src="images/4.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 4</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_five">
+					<a href="images/5.jpg" data-lightbox="images_light_box">
+						<img src="images/5.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 5</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_six">
+					<a href="images/6.jpg" data-lightbox="images_light_box">
+						<img src="images/6.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 6</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_seven">
+					<a href="images/7.jpg" data-lightbox="images_light_box">
+						<img src="images/7.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 7</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_eight">
+					<a href="images/8.jpg" data-lightbox="images_light_box">
+						<img src="images/8.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 8</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_one">
+					<a href="images/1.jpg" data-lightbox="images_light_box">
+						<img src="images/1.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 1</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_two">
+					<a href="images/2.jpg" data-lightbox="images_light_box">
+						<img src="images/2.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 2</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_three">
+					<a href="images/3.jpg" data-lightbox="images_light_box">
+						<img src="images/3.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 3</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_four">
+					<a href="images/4.jpg" data-lightbox="images_light_box">
+						<img src="images/4.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 4</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_five">
+					<a href="images/5.jpg" data-lightbox="images_light_box">
+						<img src="images/5.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 5</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_six">
+					<a href="images/6.jpg" data-lightbox="images_light_box">
+						<img src="images/6.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 6</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_seven">
+					<a href="images/7.jpg" data-lightbox="images_light_box">
+						<img src="images/7.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 7</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_eight">
+					<a href="images/8.jpg" data-lightbox="images_light_box">
+						<img src="images/8.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 8</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_one">
+					<a href="images/1.jpg" data-lightbox="images_light_box">
+						<img src="images/1.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 1</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_two">
+					<a href="images/2.jpg" data-lightbox="images_light_box">
+						<img src="images/2.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 2</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_three">
+					<a href="images/3.jpg" data-lightbox="images_light_box">
+						<img src="images/3.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 3</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_four">
+					<a href="images/4.jpg" data-lightbox="images_light_box">
+						<img src="images/4.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 4</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_five">
+					<a href="images/5.jpg" data-lightbox="images_light_box">
+						<img src="images/5.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 5</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_six">
+					<a href="images/6.jpg" data-lightbox="images_light_box">
+						<img src="images/6.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 6</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_seven">
+					<a href="images/7.jpg" data-lightbox="images_light_box">
+						<img src="images/7.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 7</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_eight">
+					<a href="images/8.jpg" data-lightbox="images_light_box">
+						<img src="images/8.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 8</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_one">
+					<a href="images/1.jpg" data-lightbox="images_light_box">
+						<img src="images/1.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 1</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_two">
+					<a href="images/2.jpg" data-lightbox="images_light_box">
+						<img src="images/2.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 2</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_three">
+					<a href="images/3.jpg" data-lightbox="images_light_box">
+						<img src="images/3.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 3</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_four">
+					<a href="images/4.jpg" data-lightbox="images_light_box">
+						<img src="images/4.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 4</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_five">
+					<a href="images/5.jpg" data-lightbox="images_light_box">
+						<img src="images/5.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 5</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_six">
+					<a href="images/6.jpg" data-lightbox="images_light_box">
+						<img src="images/6.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 6</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_seven">
+					<a href="images/7.jpg" data-lightbox="images_light_box">
+						<img src="images/7.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 7</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_eight">
+					<a href="images/8.jpg" data-lightbox="images_light_box">
+						<img src="images/8.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 8</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_one">
+					<a href="images/1.jpg" data-lightbox="images_light_box">
+						<img src="images/1.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 1</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_two">
+					<a href="images/2.jpg" data-lightbox="images_light_box">
+						<img src="images/2.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 2</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_three">
+					<a href="images/3.jpg" data-lightbox="images_light_box">
+						<img src="images/3.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 3</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_four">
+					<a href="images/4.jpg" data-lightbox="images_light_box">
+						<img src="images/4.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 4</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_five">
+					<a href="images/5.jpg" data-lightbox="images_light_box">
+						<img src="images/5.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 5</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_six">
+					<a href="images/6.jpg" data-lightbox="images_light_box">
+						<img src="images/6.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 6</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_seven">
+					<a href="images/7.jpg" data-lightbox="images_light_box">
+						<img src="images/7.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 7</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_eight">
+					<a href="images/8.jpg" data-lightbox="images_light_box">
+						<img src="images/8.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 8</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_one">
+					<a href="images/1.jpg" data-lightbox="images_light_box">
+						<img src="images/1.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 1</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_two">
+					<a href="images/2.jpg" data-lightbox="images_light_box">
+						<img src="images/2.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 2</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_three">
+					<a href="images/3.jpg" data-lightbox="images_light_box">
+						<img src="images/3.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 3</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_four">
+					<a href="images/4.jpg" data-lightbox="images_light_box">
+						<img src="images/4.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 4</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_five">
+					<a href="images/5.jpg" data-lightbox="images_light_box">
+						<img src="images/5.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 5</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_six">
+					<a href="images/6.jpg" data-lightbox="images_light_box">
+						<img src="images/6.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 6</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_seven">
+					<a href="images/7.jpg" data-lightbox="images_light_box">
+						<img src="images/7.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 7</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_eight">
+					<a href="images/8.jpg" data-lightbox="images_light_box">
+						<img src="images/8.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 8</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_one">
+					<a href="images/1.jpg" data-lightbox="images_light_box">
+						<img src="images/1.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 1</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_two">
+					<a href="images/2.jpg" data-lightbox="images_light_box">
+						<img src="images/2.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 2</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_three">
+					<a href="images/3.jpg" data-lightbox="images_light_box">
+						<img src="images/3.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 3</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_four">
+					<a href="images/4.jpg" data-lightbox="images_light_box">
+						<img src="images/4.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 4</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_five">
+					<a href="images/5.jpg" data-lightbox="images_light_box">
+						<img src="images/5.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 5</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_six">
+					<a href="images/6.jpg" data-lightbox="images_light_box">
+						<img src="images/6.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 6</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_seven">
+					<a href="images/7.jpg" data-lightbox="images_light_box">
+						<img src="images/7.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 7</h4>
+				</div>
+				<div class="grid-item col-sm-6 col-md-4 col-lg-3 image_eight">
+					<a href="images/8.jpg" data-lightbox="images_light_box">
+						<img src="images/8.jpg" alt="image" class="img-responsive">
+					</a>
+					<h4>images 8</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="product_detail_slider">
+				<div class="single_product_image">
+					<img class="img-responsive" src="images/productDetail.jpg" alt="image">
+					<div class="image_caption">
+						<h3>Thailand</h3>
+					</div>
+				</div>
+				<div class="single_product_image">
+					<img class="img-responsive" src="images/productDetail.jpg" alt="image">
+					<div class="image_caption">
+						<h3>Thailand</h3>
+					</div>
+				</div>
+				<div class="single_product_image">
+					<img class="img-responsive" src="images/productDetail.jpg" alt="image">
+					<div class="image_caption">
+						<h3>Thailand</h3>
+					</div>
+				</div>
+				<div class="single_product_image">
+					<img class="img-responsive" src="images/productDetail.jpg" alt="image">
+					<div class="image_caption">
+						<h3>Thailand</h3>
+					</div>
+				</div>
+				<div class="single_product_image">
+					<img class="img-responsive" src="images/productDetail.jpg" alt="image">
+					<div class="image_caption">
+						<h3>Thailand</h3>
+					</div>
+				</div>
+			</div>
+			<div class="product_detail_slider_nav">
+				<div class="single_thumbnail_box">
+					<img class="img-responsive" src="images/productDetail.jpg" alt="image">
+				</div>
+				<div class="single_thumbnail_box">
+					<img class="img-responsive" src="images/productDetail.jpg" alt="image">
+				</div>
+				<div class="single_thumbnail_box">
+					<img class="img-responsive" src="images/productDetail.jpg" alt="image">
+				</div>
+				<div class="single_thumbnail_box">
+					<img class="img-responsive" src="images/productDetail.jpg" alt="image">
+				</div>
+				<div class="single_thumbnail_box">
+					<img class="img-responsive" src="images/productDetail.jpg" alt="image">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="page_pagination">
+				<ul>
+					<li><a href="javascript:void(0);"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
+					<li><a href="javascript:void(0);">1</a></li>
+					<li class="active"><span class="current">2</span></li>
+					<li><a href="javascript:void(0);">3</a></li>
+					<li><a href="javascript:void(0);"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="day_wise_itinerary">
+				<div class="day_wise_itinerary_accordion">
+					<h3>Day 1: <span>(Pattaya)</span> <i class="fa fa-angle-down" aria-hidden="true"></i></h3>
+					<div class="content">
+						<p>
+							Arrival in Pattaya, Welcome to Pattaya; sun, sand and mouth-watering Thai cuisine, Pattaya is a must-visit if Thailand's on your bucket list. On this day, you will take a flight from your departure city, arrive in Bangkok and get a transfer to your hotel in Pattaya. Once you have checked-in, spend the day at leisure. Later, return to your hotel for a comfortable stay.
+						</p>
+						<p>
+							Suggested: Once you have relaxed after your journey, you can head out to one of the finest and cleanest beaches in Pattaya - Wong Amat Beach. A peaceful beach to sun bathe, swim and relax. The beach isn't crowded and you can hire chairs or try a variety of cuisines and drinks at the nearby restaurants and bars. Alternatively, you can visit the Walking Street and experience Pattaya's famous nightlife! (Please note, suggested places are only for your reference and are not included in the package.)
+						</p>
+						<p>
+							Alternatively, you can visit the Walking Street and experience Pattaya's famous nightlife! (Please note, suggested places are only for your reference and are not included in the package.)
+						</p>
+					</div>
+					<h3>Day 2: <span>(Pattaya Coral Island TOur)</span> <i class="fa fa-angle-down" aria-hidden="true"></i></h3>
+					<div class="content">
+						<p>
+							Arrival in Pattaya, Welcome to Pattaya; sun, sand and mouth-watering Thai cuisine, Pattaya is a must-visit if Thailand's on your bucket list. On this day, you will take a flight from your departure city, arrive in Bangkok and get a transfer to your hotel in Pattaya. Once you have checked-in, spend the day at leisure. Later, return to your hotel for a comfortable stay.
+						</p>
+						<p>
+							Suggested: Once you have relaxed after your journey, you can head out to one of the finest and cleanest beaches in Pattaya - Wong Amat Beach. A peaceful beach to sun bathe, swim and relax. The beach isn't crowded and you can hire chairs or try a variety of cuisines and drinks at the nearby restaurants and bars. Alternatively, you can visit the Walking Street and experience Pattaya's famous nightlife! (Please note, suggested places are only for your reference and are not included in the package.)
+						</p>
+					</div>
+					<h3>Day 3: <span>(Pattaya to Bangkok)</span> <i class="fa fa-angle-down" aria-hidden="true"></i></h3>
+					<div class="content">
+						<p>
+							Arrival in Pattaya, Welcome to Pattaya; sun, sand and mouth-watering Thai cuisine, Pattaya is a must-visit if Thailand's on your bucket list. On this day, you will take a flight from your departure city, arrive in Bangkok and get a transfer to your hotel in Pattaya. Once you have checked-in, spend the day at leisure. Later, return to your hotel for a comfortable stay.
+						</p>
+						<p>
+							Suggested: Once you have relaxed after your journey, you can head out to one of the finest and cleanest beaches in Pattaya - Wong Amat Beach. A peaceful beach to sun bathe, swim and relax. The beach isn't crowded and you can hire chairs or try a variety of cuisines and drinks at the nearby restaurants and bars. Alternatively, you can visit the Walking Street and experience Pattaya's famous nightlife! (Please note, suggested places are only for your reference and are not included in the package.)
+						</p>
+						<p>
+							Alternatively, you can visit the Walking Street and experience Pattaya's famous nightlife! (Please note, suggested places are only for your reference and are not included in the package.)
+						</p>
+					</div>
+					<h3>Day 4: <span>(Bangkok Half day City Tour)</span> <i class="fa fa-angle-down" aria-hidden="true"></i></h3>
+					<div class="content">
+						<p>
+							Arrival in Pattaya, Welcome to Pattaya; sun, sand and mouth-watering Thai cuisine, Pattaya is a must-visit if Thailand's on your bucket list. On this day, you will take a flight from your departure city, arrive in Bangkok and get a transfer to your hotel in Pattaya. Once you have checked-in, spend the day at leisure. Later, return to your hotel for a comfortable stay.
+						</p>
+						<p>
+							Suggested: Once you have relaxed after your journey, you can head out to one of the finest and cleanest beaches in Pattaya - Wong Amat Beach. A peaceful beach to sun bathe, swim and relax. The beach isn't crowded and you can hire chairs or try a variety of cuisines and drinks at the nearby restaurants and bars. Alternatively, you can visit the Walking Street and experience Pattaya's famous nightlife! (Please note, suggested places are only for your reference and are not included in the package.)
+						</p>
+					</div>
+					<h3>Day 5: <span>(Departure from Bangkok)</span> <i class="fa fa-angle-down" aria-hidden="true"></i></h3>
+					<div class="content">
+						<p>
+							Arrival in Pattaya, Welcome to Pattaya; sun, sand and mouth-watering Thai cuisine, Pattaya is a must-visit if Thailand's on your bucket list. On this day, you will take a flight from your departure city, arrive in Bangkok and get a transfer to your hotel in Pattaya. Once you have checked-in, spend the day at leisure. Later, return to your hotel for a comfortable stay.
+						</p>
+						<p>
+							Suggested: Once you have relaxed after your journey, you can head out to one of the finest and cleanest beaches in Pattaya - Wong Amat Beach. A peaceful beach to sun bathe, swim and relax. The beach isn't crowded and you can hire chairs or try a variety of cuisines and drinks at the nearby restaurants and bars. Alternatively, you can visit the Walking Street and experience Pattaya's famous nightlife! (Please note, suggested places are only for your reference and are not included in the package.)
+						</p>
+						<p>
+							Alternatively, you can visit the Walking Street and experience Pattaya's famous nightlife! (Please note, suggested places are only for your reference and are not included in the package.)
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

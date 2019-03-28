@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
+body {font-family: 'Work Sans', sans-serif;}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0px;
+}
+a{
+	text-decoration: none!important;
+}
+section{
+	padding: 30px 0px;
+}
+
+/*filter using isotope start*/
+.filter_btns{
+	margin: 0px;
+	padding: 20px 0px;
+}
+.filter_btns li{
+	display: inline-block;
+}
+.filter_btns li a.active_filter{
+	background-color: #000;
+	color: #fff;
+}
+.grid-item{
+	margin-bottom: 20px;
+}
+.grid-item h4{
+	margin-top: 5px;
+}
+/*filter using isotope end*/
+
+
+/*slider using slick css start*/
+.product_detail_slider_nav .single_thumbnail_box {
+    height: 100px;
+}
+.product_detail_slider_nav .single_thumbnail_box img{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.product_detail_slider a.carousel-control i.fa {
+    width: 100%;
+    height: 100%;
+}
+.product_detail_slider .single_product_image{
+	position: relative;
+	height: auto;
+}
+.product_detail_slider .single_product_image img {
+    width: 100%;
+}
+.product_detail_slider .image_caption {
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    bottom: 0;
+    position: absolute;
+    background: #d33a54;
+    background: -moz-linear-gradient(top, #d33a54 0%, #9a1443 100%);
+    background: -webkit-linear-gradient(top, #d33a54 0%,#9a1443 100%);
+    background: linear-gradient(to bottom, #d33a54 0%,#9a1443 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d33a54', endColorstr='#9a1443',GradientType=0 );
+}
+.product_detail_slider .image_caption h3 {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+.product_detail_slider button.slick-arrow,
+.product_detail_slider_nav button.slick-arrow {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 44px;
+    left: 0;
+    margin: auto;
+    z-index: 11;
+    outline: none;
+}
+.product_detail_slider_nav button.slick-arrow {
+    height: 31px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.product_detail_slider_nav {
+    margin-top: 12px;
+}
+.product_detail_slider button.slick-next.slick-arrow,
+.product_detail_slider_nav button.slick-next.slick-arrow{
+	right: 0px;
+	left: auto;
+}
+/*slider using slick css end*/
+
+
+/*pagination css start*/
+.page_pagination{
+	display: table;
+	width: 100%;
+}
+.page_pagination ul {
+    margin: 0px;
+    padding: 0px;
+}
+.page_pagination ul li span, .page_pagination ul li a {
+    color: #333333;
+    font-size: 24px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 2px 0px;
+}
+.page_pagination ul li.active span, .page_pagination ul li a:hover {
+    background: #454f97;
+    background: -moz-linear-gradient(top, #454f97 0%, #02327c 100%);
+    background: -webkit-linear-gradient(top, #454f97 0%,#02327c 100%);
+    background: linear-gradient(to bottom, #454f97 0%,#02327c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454f97', endColorstr='#02327c',GradientType=0 );
+    color: #fff;
+    border-color: transparent;
+}
+.page_pagination ul li {
+    display: inline-block;
+}
+/*pagination css end*/
+
+.day_wise_itinerary .day_wise_itinerary_accordion h3 {
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 22px;
+    color: #3f3f41;
+    font-weight: 700;
+}
+.day_wise_itinerary .day_wise_itinerary_accordion h3 span{
+	color: #3f3f41;
+	font-weight: 400;
+}
+.day_wise_itinerary .day_wise_itinerary_accordion .content p{
+	color: #3f3f41;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.day_wise_itinerary .day_wise_itinerary_accordion .content p:last-child{
+	margin-bottom: 0px;
+}
+.day_wise_itinerary .day_wise_itinerary_accordion h3 {
+    margin: 0px;
+    padding: 15px 20px 15px 0px;
+    font-size: 22px;
+    color: #3f3f41;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 15px;
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+}
+.day_wise_itinerary .day_wise_itinerary_accordion h3:last-of-type{
+	margin-bottom: 0px;
+}
+.day_wise_itinerary .day_wise_itinerary_accordion h3.ui-state-active:last-of-type{
+	margin-bottom: 15px;
+}
+.day_wise_itinerary .day_wise_itinerary_accordion {
+    padding-left: 70px;
+    position: relative;
+    counter-reset: section;
+}
+.day_wise_itinerary .day_wise_itinerary_accordion:after {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    top: 3px;
+    bottom: 3px;
+    margin: auto;
+    position: absolute;
+    left: 23.5px;
+    background-color: #d9d9d9;
+    z-index: -1;
+}
+.day_wise_itinerary .day_wise_itinerary_accordion h3.ui-state-active,
+.day_wise_itinerary .day_wise_itinerary_accordion h3.ui-state-active span{
+	color: #493083;
+}
+.day_wise_itinerary {
+    padding: 0px 0px 30px;
+}
+.day_wise_itinerary .day_wise_itinerary_accordion h3:before{
+	counter-increment: section;
+    content: counter(section);
+    color: #3f3f41;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: -70px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 8px;
+}
+.day_wise_itinerary .day_wise_itinerary_accordion h3.ui-state-active:before{
+	color: #fff;
+    background: #454f97;
+    background: -moz-linear-gradient(top, #454f97 0%, #02327c 100%);
+    background: -webkit-linear-gradient(top, #454f97 0%,#02327c 100%);
+    background: linear-gradient(to bottom, #454f97 0%,#02327c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454f97', endColorstr='#02327c',GradientType=0 );
+}
+.day_wise_itinerary .day_wise_itinerary_accordion .content {
+    position: relative;
+    border-radius: 0px;
+    border: none;
+    padding: 0px 0px 15px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.day_wise_itinerary .day_wise_itinerary_accordion h3 span.ui-icon {
+    display: none;
+}
+.day_wise_itinerary .day_wise_itinerary_accordion h3 i{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 22px;
+    color: #3f3f41;
+}
+.day_wise_itinerary .day_wise_itinerary_accordion h3.ui-state-active i{
+	color: #493083;
+	transform: rotate(180deg);
+}
